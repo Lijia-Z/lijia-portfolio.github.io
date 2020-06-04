@@ -1,0 +1,45 @@
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    background-color: #1c1f1f;
+    color: #ffffff;
+
+}
+
+.heading {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.hero-pic-section {
+    padding: 0px;
+}
+#hero-pic {
+    width: 100%;
+}
+
+.carousel-caption h5 {
+    color: #48D1CC;
+    font-size: 3.5em;
+    margin-bottom: 1vh;
+}
+
+.carousel-caption p {
+    color: #F2F5F5;
+    font-size: 2em;
+}
+
+.contact-info-section {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#brand {
+    font-weight: bolder;
+}
+
+
+
+
