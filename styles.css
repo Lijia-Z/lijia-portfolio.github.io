@@ -1,45 +1,123 @@
 body {
     font-family: Calibri, sans-serif;
-    font-size: 15px;
-    background-color: #1c1f1f;
-    color: #ffffff;
-
+    font-size: 2vw;
+    background-color: #b6cdd0;
+    color: #1c1f1f;
 }
 
-.heading {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    text-align: center;
+@media (min-width: 576px) {
+    body {
+        background-color: #1c1f1f;
+        color: #f2f5f5;
+    }
 }
 
-.hero-pic-section {
-    padding: 0px;
+.navbar {
+    font-size: 3.5vw;
 }
-#hero-pic {
-    width: 100%;
+
+@media (min-width: 576px) {
+    .navbar {
+        font-size: 1.5vw;
+    }
 }
 
 .carousel-caption h5 {
     color: #48D1CC;
-    font-size: 3.5em;
+    font-size: 4vw;
     margin-bottom: 1vh;
 }
 
 .carousel-caption p {
-    color: #F2F5F5;
-    font-size: 2em;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+
+.about-me-section {
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
 }
 
 .contact-info-section {
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+}
+
+.col-12 {
+    padding: 0px;
 }
 
 #brand {
-    font-weight: bolder;
+    font-weight: bold;
+    color: #B6CDD0;
+    padding: 1vw;
+    border-style: double;
+    border-color: #B6CDD0;
+    border-width: 0.8vw;
+}
+
+/* extra xmall device section */
+#xs-hero-pic {
+    width: 100vw;
+}
+
+#xs-intro-section {
+    background-color: #B6CDD0;
+    color: #1c1f1f;
+    text-align: center; 
+    margin: 0px;
+}
+
+#xs-intro-section h1 {
+    font-size: 12vw;
+}
+
+#xs-intro-section h2 {   
+    font-size: 10vw;
+}
+
+#xs-intro-section h3 {
+    font-size: 5vw;
+    font-weight: 600;
 }
 
 
+/* resume section styling */
+#resume-section {
+    background-color: #1c1f1f;
+    color: #f2f5f5;
+    font-size: 4vw;
+}
 
+#resume-section h4 {
+    font-size: 4vw;
+    text-decoration: underline;
+}
 
+@media (min-width: 576px) {
+    #resume-section {
+        font-size: 2vw;
+    }
+    #resume-section h4 {
+        font-size: 2vw;
+    }
+}
+
+#edu-section {
+    padding: 4%;
+}
+
+#project-section {
+    padding: 4%;
+}
+
+/* content seperation blocks */
+#xs-transition-block {
+    height: 10vh;
+    background-color: #1c1f1f;
+    background: linear-gradient(0deg, rgba(28,31,31,1) 4%, rgba(182,205,208,1) 96%);
+}
+
+#sm-transition-block {
+    height: 15vh;
+}
