@@ -3,7 +3,7 @@ body {
 }
 
 .clock {
-    border: solid 3px #1c1f1f;
+    border: solid 3px #f2f5f5;
     width:200px;
     height:200px;
     margin:auto;
@@ -19,28 +19,19 @@ body {
 
 .minute {
     width: 3px;
-    background-color: #1c1f1f;
+    background-color: #f2f5f5;
     height: 90px;
 }
 
 .hour {
     width: 5px;
-    background-color: #1c1f1f;
+    background-color: #f2f5f5;
     height: 60px;
 }
 
 @media (min-width: 576px) {
     body {
         font-size: 2vw;
-    }
-    .clock {
-        border: solid 3px #f2f5f5;
-    }
-    .minute {
-        background-color: #f2f5f5;
-    }
-    .hour {
-        background-color: #f2f5f5;
     }
 }
 
