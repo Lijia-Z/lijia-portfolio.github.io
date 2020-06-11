@@ -1,15 +1,8 @@
 body {
     font-family: Calibri, sans-serif;
     font-size: 2vw;
-    background-color: #b6cdd0;
-    color: #1c1f1f;
-}
-
-@media (min-width: 576px) {
-    body {
-        background-color: #1c1f1f;
-        color: #f2f5f5;
-    }
+    background-color: #1c1f1f;
+    color: #f2f5f5;
 }
 
 .navbar {
@@ -70,6 +63,7 @@ body {
 
 #xs-intro-section h1 {
     font-size: 12vw;
+    margin-top: 5vh;
 }
 
 #xs-intro-section h2 {   
@@ -79,18 +73,45 @@ body {
 #xs-intro-section h3 {
     font-size: 5vw;
     font-weight: 600;
+    margin-bottom: 6vh;
 }
 
+/* xs devices about me section styling */
+#xs-about-me-section {
+    font-size: 4vw; 
+    padding: 5%;
+}
+
+#xs-about-me-section h1 {
+    font-size: 5vw;
+    text-decoration: underline;
+}
+
+/* xs devices contact me section styling */
+#xs-contact-me-section {
+    background-color: #B6CDD0;
+    color: #1c1f1f;
+    font-size: 4vw; 
+    padding: 5%;
+    text-align: center;
+}
+
+#xs-contact-me-section h1 {
+    font-size: 5vw;
+    text-decoration: underline;
+}
+
+#xs-contact-me-section p {
+    margin-bottom: 8px;
+}
 
 /* resume section styling */
 #resume-section {
-    background-color: #1c1f1f;
-    color: #f2f5f5;
     font-size: 4vw;
 }
 
 #resume-section h4 {
-    font-size: 4vw;
+    font-size: 5vw;
     text-decoration: underline;
 }
 
@@ -104,20 +125,14 @@ body {
 }
 
 #edu-section {
-    padding: 4%;
+    padding: 5%;
 }
 
 #project-section {
-    padding: 4%;
+    padding: 5%;
 }
 
 /* content seperation blocks */
-#xs-transition-block {
-    height: 10vh;
-    background-color: #1c1f1f;
-    background: linear-gradient(0deg, rgba(28,31,31,1) 4%, rgba(182,205,208,1) 96%);
-}
-
 #sm-transition-block {
-    height: 15vh;
+    height: 8vh;
 }
